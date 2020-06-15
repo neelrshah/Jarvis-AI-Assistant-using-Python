@@ -1,0 +1,16 @@
+Features:
+1) Get Data using assistant
+2) Get Time Using Assistant
+3) Assistant wish You According to time and responds to hi,hello,whatsup
+4) wikipedia Search
+5) Go Offline on command
+6) Who are you
+7) who made you
+8) open youtube
+9) open google
+10) logout , shutdown , restart pc
+11) open photos,videos,documents,downloads
+12) play songs
+13) basic gui
+14) screenshot
+15) cpu usage , battery ,ram usage
