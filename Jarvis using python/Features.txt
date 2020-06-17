@@ -14,3 +14,4 @@ Features:
 13) basic gui
 14) screenshot
 15) cpu usage , battery ,ram usage
+16) tell jokes

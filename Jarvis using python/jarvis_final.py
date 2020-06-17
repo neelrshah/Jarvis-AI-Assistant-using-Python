@@ -4,6 +4,7 @@ import speech_recognition as sr
 import wikipedia
 import random
 import webbrowser as wb
+import pyjokes 
 from translate import Translator
 import os
 import subprocess as sp
@@ -86,7 +87,10 @@ def screenshot():
     img = pyautogui.screenshot()
     img.save(".\screenshot\ss.png")
 
-
+def jokes():
+    j = pyjokes.get_joke()
+    print(j)
+    speak(j)
 
 #TODO translate language
 
@@ -156,6 +160,9 @@ if __name__ == "__main__":
 
         elif 'open google' in query:
             wb.open("google.com")
+
+        elif ("tell me a joke" in query or "joke" in query):
+            jokes()
 
             # TODO fix Chrome Browser 
         elif 'search in chrome' in query:
